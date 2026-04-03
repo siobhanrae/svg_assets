@@ -1,6 +1,6 @@
 <svg xmlns='http://www.w3.org/2000/svg'
      width='646' height='70' viewBox='0 0 646 70'
-     style='position:absolute;top:0;left:0;pointer-events:none;overflow:visible;'>
+     style='position:absolute;top:0;left:0;pointer-events:none;'>
   <defs>
     <symbol id='short-rain' overflow='visible'>
       <path d='M -0.25 0 L 0.25 0 L 0.85 8 L -0.85 8 Z' fill='rgb(212,239,244)'/>
@@ -70,7 +70,7 @@
 <use href='#long-gray-rain' x='211' y='22' opacity='0.3'/>
 <use href='#med-rain' x='227' y='54' opacity='0.6'/>
 <use href='#short-rain' x='234' y='16' opacity='0.7'/>
-<use href='#med-rain' x='250' y='4' opacity='0.'/>
+<use href='#med-rain' x='250' y='4' opacity='0.9'/>
 <use href='#short-rain' x='265' y='16' opacity='0.8'/>
 <use href='#med-gray-rain' x='276' y='58' opacity='0.8'/>
 <use href='#long-rain' x='280' y='0' opacity='0.5'/>
@@ -82,7 +82,7 @@
 <use href='#long-rain' x='350' y='0' opacity='0.3'/>
 <use href='#med-rain' x='360' y='48' opacity='0.5'/>
 <use href='#med-rain' x='374' y='10' opacity='0.7'/>
-<use href='#short-rain' x='384' y='56' opacity='0.'/>
+<use href='#short-rain' x='384' y='56' opacity='0.9'/>
 <use href='#med-rain' x='396' y='38' opacity='0.7'/>
 <use href='#med-rain' x='400' y='46' opacity='0.5'/>
 <use href='#long-rain' x='406' y='4' opacity='0.5'/>
@@ -115,4 +115,5 @@
 <use href='#long-rain' x='630' y='50' opacity='0.7'/>
 <use href='#short-rain' x='636' y='4' opacity='0.8'/>
 <use href='#med-rain' x='640' y='36' opacity='0.9'/>
+</g>
 </svg>
