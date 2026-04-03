@@ -1,43 +1,75 @@
 <svg xmlns='http://www.w3.org/2000/svg'
      width='646' height='70' viewBox='0 0 646 70'
      style='position:absolute;top:0;left:0;pointer-events:none;'>
-  <defs>
-    <symbol id='short-rain' overflow='visible'>
-      <path d='M -0.25 0 L 0.25 0 L 0.85 8 L -0.85 8 Z' fill='rgb(212,239,244)'/>
-    </symbol>
-    <symbol id='short-gray-rain' overflow='visible'>
-      <path d='M -0.25 0 L 0.25 0 L 0.85 8 L -0.85 8 Z' fill='rgb(197,215,219)'/>
-    </symbol>
-    <symbol id='short-silver-rain' overflow='visible'>
-      <path d='M -0.25 0 L 0.25 0 L 0.85 8 L -0.85 8 Z' fill='rgb(246,246,246)'/>
-    </symbol>
+<defs>
 
-    <symbol id='med-rain' overflow='visible'>
-      <path d='M -0.25 0 L 0.25 0 L 0.95 10 L -0.95 10 Z' fill='rgb(212,239,244)'/>
-    </symbol>
-    <symbol id='med-gray-rain' overflow='visible'>
-      <path d='M -0.25 0 L 0.25 0 L 0.95 10 L -0.95 10 Z' fill='rgb(197,215,219)'/>
-    </symbol>
-    <symbol id='med-silver-rain' overflow='visible'>
-      <path d='M -0.25 0 L 0.25 0 L 0.95 10 L -0.95 10 Z' fill='rgb(246,246,246)'/>
-    </symbol>
+  <symbol id='short-rain' overflow='visible'>
+    <path d='M -0.25 0 L 0.25 0 L 1.20 8 Q 0 10.0 -1.20 8 Z'
+          fill='rgb(212,239,244)' opacity='0.60'/>
+    <path d='M -0.25 0 L 0.25 0 L 0.70 8 Q 0 9.0 -0.70 8 Z'
+          fill='rgb(212,239,244)' opacity='1'/>
+  </symbol>
 
-    <symbol id='long-rain' overflow='visible'>
-      <path d='M -0.25 0 L 0.25 0 L 1.10 14 L -1.10 14 Z' fill='rgb(212,239,244)'/>
-    </symbol>
-    <symbol id='long-gray-rain' overflow='visible'>
-      <path d='M -0.25 0 L 0.25 0 L 1.10 14 L -1.10 14 Z' fill='rgb(197,215,219)'/>
-    </symbol>
-    <symbol id='long-silver-rain' overflow='visible'>
-      <path d='M -0.25 0 L 0.25 0 L 1.10 14 L -1.10 14 Z' fill='rgb(246,246,246)'/>
-    </symbol>
+  <symbol id='short-gray-rain' overflow='visible'>
+    <path d='M -0.25 0 L 0.25 0 L 1.20 8 Q 0 10.0 -1.20 8 Z'
+          fill='rgb(197,215,219)' opacity='0.60'/>
+    <path d='M -0.25 0 L 0.25 0 L 0.70 8 Q 0 9.0 -0.70 8 Z'
+          fill='rgb(197,215,219)' opacity='1'/>
+  </symbol>
 
-    <filter id='rain-blur' x='-10%' y='-10%' width='120%' height='120%'>
-      <feGaussianBlur stdDeviation='0.25'/>
-    </filter>
-  </defs>
+  <symbol id='short-silver-rain' overflow='visible'>
+    <path d='M -0.25 0 L 0.25 0 L 1.20 8 Q 0 10.0 -1.20 8 Z'
+          fill='rgb(246,246,246)' opacity='0.45'/>
+    <path d='M -0.25 0 L 0.25 0 L 0.70 8 Q 0 9.0 -0.70 8 Z'
+          fill='rgb(246,246,246)' opacity='1'/>
+  </symbol>
 
-  <g filter='url(#rain-blur)'>
+
+  <symbol id='med-rain' overflow='visible'>
+    <path d='M -0.25 0 L 0.25 0 L 1.35 10 Q 0 12.4 -1.35 10 Z'
+          fill='rgb(212,239,244)' opacity='0.60'/>
+    <path d='M -0.25 0 L 0.25 0 L 0.80 10 Q 0 11.2 -0.80 10 Z'
+          fill='rgb(212,239,244)' opacity='1'/>
+  </symbol>
+
+  <symbol id='med-gray-rain' overflow='visible'>
+    <path d='M -0.25 0 L 0.25 0 L 1.35 10 Q 0 12.4 -1.35 10 Z'
+          fill='rgb(197,215,219)' opacity='0.60'/>
+    <path d='M -0.25 0 L 0.25 0 L 0.80 10 Q 0 11.2 -0.80 10 Z'
+          fill='rgb(197,215,219)' opacity='1'/>
+  </symbol>
+
+  <symbol id='med-silver-rain' overflow='visible'>
+    <path d='M -0.25 0 L 0.25 0 L 1.35 10 Q 0 12.4 -1.35 10 Z'
+          fill='rgb(246,246,246)' opacity='0.45'/>
+    <path d='M -0.25 0 L 0.25 0 L 0.80 10 Q 0 11.2 -0.80 10 Z'
+          fill='rgb(246,246,246)' opacity='1'/>
+  </symbol>
+
+
+  <symbol id='long-rain' overflow='visible'>
+    <path d='M -0.25 0 L 0.25 0 L 1.50 14 Q 0 17.2 -1.50 14 Z'
+          fill='rgb(212,239,244)' opacity='0.60'/>
+    <path d='M -0.25 0 L 0.25 0 L 0.95 14 Q 0 15.6 -0.95 14 Z'
+          fill='rgb(212,239,244)' opacity='1'/>
+  </symbol>
+
+  <symbol id='long-gray-rain' overflow='visible'>
+    <path d='M -0.25 0 L 0.25 0 L 1.50 14 Q 0 17.2 -1.50 14 Z'
+          fill='rgb(197,215,219)' opacity='0.60'/>
+    <path d='M -0.25 0 L 0.25 0 L 0.95 14 Q 0 15.6 -0.95 14 Z'
+          fill='rgb(197,215,219)' opacity='1'/>
+  </symbol>
+
+  <symbol id='long-silver-rain' overflow='visible'>
+    <path d='M -0.25 0 L 0.25 0 L 1.50 14 Q 0 17.2 -1.50 14 Z'
+          fill='rgb(246,246,246)' opacity='0.45'/>
+    <path d='M -0.25 0 L 0.25 0 L 0.95 14 Q 0 15.6 -0.95 14 Z'
+          fill='rgb(246,246,246)' opacity='1'/>
+  </symbol>
+</defs>
+
+
 
 <use href='#med-gray-rain' x='6' y='28' opacity='0.8'/>
 <use href='#short-rain' x='12' y='4' opacity='0.9'/>
@@ -115,5 +147,4 @@
 <use href='#long-rain' x='630' y='50' opacity='0.7'/>
 <use href='#short-rain' x='636' y='4' opacity='0.8'/>
 <use href='#med-rain' x='640' y='36' opacity='0.9'/>
-</g>
 </svg>
